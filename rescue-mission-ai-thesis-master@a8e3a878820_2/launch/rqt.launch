@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="rqt_gui" type="rqt_gui" name="rqt_gui" args="--perspective-file $(find multi_drone_sar)/rqt/Default.perspective"/>
+
+</launch>

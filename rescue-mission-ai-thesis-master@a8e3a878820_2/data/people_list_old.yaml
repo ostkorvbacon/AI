@@ -1,0 +1,58 @@
+people:
+  - id: 1
+    point: [-2, 64.8]
+    found: false
+  - id: 99
+    point: [-2, 64.8]
+    found: false
+  - id: 2
+    point: [-52.4, -159.6]
+    found: false
+  - id: 3
+    point: [72.2, -159.6]
+    found: false
+  - id: 4
+    point: [72.2, -85.8]
+    found: false
+  - id: 5
+    point: [72.2, -30.0]
+    found: false
+  - id: 6
+    point: [72.2, 75.0]
+    found: false
+  - id: 7
+    point: [72.2, 154.6]
+    found: false
+  - id: 8
+    point: [-52.4, 154.6]
+    found: false
+  - id: 9
+    point: [-52.4, 70.9]
+    found: false
+  - id: 10
+    point: [-127.4, 175.9]
+    found: false
+  - id: 11
+    point: [-127.4, 81.2]
+    found: false
+  - id: 12
+    point: [-127.4, -13.1]
+    found: false
+  - id: 13
+    point: [-127.4, -104.9]
+    found: false
+  - id: 14
+    point: [197.6, 167.1]
+    found: false
+  - id: 15
+    point: [197.6, 88.4]
+    found: false
+  - id: 16
+    point: [197.6, 9.2]
+    found: false
+  - id: 17
+    point: [197.6, -67.5]
+    found: false
+  - id: 18
+    point: [197.6, -148]
+    found: false

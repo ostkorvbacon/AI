@@ -1,0 +1,5 @@
+people:
+- first_aid: true
+  found: false
+  id: 0
+  point: [99999, 99999]

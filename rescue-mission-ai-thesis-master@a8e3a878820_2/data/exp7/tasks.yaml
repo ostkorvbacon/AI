@@ -1,0 +1,17 @@
+{task: [
+    {droneid: '', priority: 5, uniqueid: '33', x: -63.33333333333334, y: -63.33333008},
+    {droneid: '', priority: 5, uniqueid: '34', x: -21.111111111111114, y: -63.33333008},
+    {droneid: '', priority: 5, uniqueid: '35', x: 21.111111111111114, y: -63.33333008},
+    {droneid: '', priority: 5, uniqueid: '36', x: 63.333333333333314, y: -63.33333008},
+    {droneid: '', priority: 5, uniqueid: '43', x: -63.33333333333334, y: -21.11111328},
+    {droneid: '', priority: 5, uniqueid: '44', x: -21.111111111111114, y: -21.11111328},
+    {droneid: '', priority: 5, uniqueid: '45', x: 21.111111111111114, y: -21.11111328},
+    {droneid: '', priority: 5, uniqueid: '46', x: 63.333333333333314, y: -21.11111328},
+    {droneid: '', priority: 5, uniqueid: '53', x: -63.33333333333334, y: 21.11111328},
+    {droneid: '', priority: 5, uniqueid: '54', x: -21.111111111111114, y: 21.11111328},
+    {droneid: '', priority: 5, uniqueid: '55', x: 21.111111111111114, y: 21.11111328},
+    {droneid: '', priority: 5, uniqueid: '56', x: 63.333333333333314, y: 21.11111328},
+    {droneid: '', priority: 5, uniqueid: '63', x: -63.33333333333334, y: 63.33333008},
+    {droneid: '', priority: 5, uniqueid: '64', x: -21.111111111111114, y: 63.33333008},
+    {droneid: '', priority: 5, uniqueid: '65', x: 21.111111111111114, y: 63.33333008},
+    {droneid: '', priority: 5, uniqueid: '66', x: 63.333333333333314, y: 63.33333008},]}

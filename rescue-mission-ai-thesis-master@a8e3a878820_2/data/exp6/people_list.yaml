@@ -1,0 +1,5 @@
+people:
+- first_aid: true
+  found: false
+  id: 0
+  point: [-170.86130675585935, 143.08399854381992]

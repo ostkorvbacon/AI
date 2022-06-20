@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="people_list" default="people_scattered"/>
+
+    <arg name="host" default="$(env WSL_HOST_IP)"/>
+
+    <remap from="/airsim_node/clock" to="/clock"/>
+
+    <!--
+    <param name="/airsim_node/world_frame_id" value="world_enu"/>
+    <param name="/airsim_node/coordinate_system_enu" value="true"/>
+    -->
+
+    <rosparam file="$(find multi_drone_sar)/data/$(arg people_list).yaml" command="load"/>
+    
+
+    <!-- Launch AirSim ROS API -->
+    <include file="$(find airsim_ros_pkgs)/launch/airsim_node.launch" pass_all_args="true">
+        <arg name="publish_clock" value="true"/>
+    </include>
+
+    <node name="task_manager" pkg="multi_drone_sar" type="task_manager.py" output="screen"  respawn="false" respawn_delay="0">
+        <rosparam command="load" file="$(find multi_drone_sar)/data/tasks.yaml"/>
+    </node>
+
+    <node name="helper_functions" pkg="multi_drone_sar" type="helper_functions.py" output="screen"  respawn="false" respawn_delay="0">
+    </node>
+
+    <group ns="drone_1">
+        <include file="$(find multi_drone_sar)/launch/experiments/2/levels.launch" pass_all_args="true">
+            <arg name="offset_x" value="2"/>
+            <arg name="offset_y" value="0"/>
+            <arg name="trace_rgba" value="[0.0, 1.0, 0.0, 1.0]"/>
+        </include>
+    </group>
+</launch>

@@ -1,0 +1,5 @@
+multi_drone_sar/Task task
+bool first # boolean if the task should be added first or not
+---
+bool success # indicate successful run of triggered service
+string message # informational, e.g. for error messages

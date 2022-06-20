@@ -1,0 +1,399 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Drone1/LIDAR1
+      Splitter Ratio: 0.5051546096801758
+    Tree Height: 570
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: LIDAR
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 400
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz/Group
+      Displays:
+        - Alpha: 1
+          Autocompute Intensity Bounds: true
+          Autocompute Value Bounds:
+            Max Value: 10
+            Min Value: -10
+            Value: true
+          Axis: Z
+          Channel Name: intensity
+          Class: rviz/PointCloud2
+          Color: 255; 255; 255
+          Color Transformer: Intensity
+          Decay Time: 0
+          Enabled: true
+          Invert Rainbow: false
+          Max Color: 255; 255; 255
+          Max Intensity: 4096
+          Min Color: 0; 0; 0
+          Min Intensity: 0
+          Name: LIDAR
+          Position Transformer: XYZ
+          Queue Size: 10
+          Selectable: true
+          Size (Pixels): 4
+          Size (m): 0.20000000298023224
+          Style: Points
+          Topic: /airsim_node/drone_1/lidar/LidarCustom
+          Unreliable: false
+          Use Fixed Frame: true
+          Use rainbow: true
+          Value: true
+        - Angle Tolerance: 0.10000000149011612
+          Class: rviz/Odometry
+          Covariance:
+            Orientation:
+              Alpha: 0.5
+              Color: 255; 255; 127
+              Color Style: Unique
+              Frame: Local
+              Offset: 1
+              Scale: 1
+              Value: true
+            Position:
+              Alpha: 0.30000001192092896
+              Color: 204; 51; 204
+              Scale: 1
+              Value: true
+            Value: true
+          Enabled: true
+          Keep: 25
+          Name: Odometry
+          Position Tolerance: 0.10000000149011612
+          Shape:
+            Alpha: 1
+            Axes Length: 1
+            Axes Radius: 0.10000000149011612
+            Color: 255; 25; 0
+            Head Length: 0.20000000298023224
+            Head Radius: 0.05000000074505806
+            Shaft Length: 0.20000000298023224
+            Shaft Radius: 0.019999999552965164
+            Value: Arrow
+          Topic: /airsim_node/MyQuad/odom_local_enu
+          Unreliable: false
+          Value: true
+        - Alpha: 1
+          Autocompute Intensity Bounds: true
+          Autocompute Value Bounds:
+            Max Value: 10
+            Min Value: -10
+            Value: true
+          Axis: Z
+          Channel Name: intensity
+          Class: rviz/PointCloud2
+          Color: 255; 255; 255
+          Color Transformer: RGB8
+          Decay Time: 0
+          Enabled: true
+          Invert Rainbow: false
+          Max Color: 255; 255; 255
+          Max Intensity: 4096
+          Min Color: 0; 0; 0
+          Min Intensity: 0
+          Name: front_left_depth_planar_registered_point_cloud
+          Position Transformer: XYZ
+          Queue Size: 10
+          Selectable: true
+          Size (Pixels): 3
+          Size (m): 0.10000000149011612
+          Style: Flat Squares
+          Topic: /airsim_node/front_left_custom/DepthPlanner/registered/points
+          Unreliable: false
+          Use Fixed Frame: true
+          Use rainbow: true
+          Value: true
+        - Class: rviz/TF
+          Enabled: true
+          Frame Timeout: 15
+          Frames:
+            All Enabled: false
+            drone_1:
+              Value: true
+            drone_1/LidarCustom:
+              Value: true
+            drone_1/base_footprint:
+              Value: true
+            drone_1/base_link:
+              Value: true
+            drone_1/odom_local_enu:
+              Value: true
+            world_enu:
+              Value: true
+            world_ned:
+              Value: false
+          Marker Scale: 1
+          Name: TF
+          Show Arrows: true
+          Show Axes: true
+          Show Names: true
+          Tree:
+            world_ned:
+              world_enu:
+                drone_1:
+                  drone_1/base_footprint:
+                    drone_1/odom_local_enu:
+                      drone_1/base_link:
+                        drone_1/LidarCustom:
+                          {}
+          Update Interval: 0
+          Value: true
+      Enabled: true
+      Name: Drone
+    - Class: rviz/Group
+      Displays:
+        - Alpha: 1
+          Autocompute Intensity Bounds: true
+          Autocompute Value Bounds:
+            Max Value: 10
+            Min Value: -10
+            Value: true
+          Axis: Z
+          Channel Name: intensity
+          Class: rviz/PointCloud2
+          Color: 255; 255; 255
+          Color Transformer: Intensity
+          Decay Time: 0
+          Enabled: true
+          Invert Rainbow: false
+          Max Color: 255; 255; 255
+          Max Intensity: 4096
+          Min Color: 0; 0; 0
+          Min Intensity: 0
+          Name: Cost Cloud
+          Position Transformer: XYZ
+          Queue Size: 10
+          Selectable: true
+          Size (Pixels): 3
+          Size (m): 0.05000000074505806
+          Style: Flat Squares
+          Topic: /drone_1/move_base/TrajectoryPlannerROS/cost_cloud
+          Unreliable: false
+          Use Fixed Frame: true
+          Use rainbow: true
+          Value: true
+        - Alpha: 1
+          Buffer Length: 1
+          Class: rviz/Path
+          Color: 170; 0; 255
+          Enabled: true
+          Head Diameter: 0.30000001192092896
+          Head Length: 0.20000000298023224
+          Length: 0.30000001192092896
+          Line Style: Lines
+          Line Width: 0.029999999329447746
+          Name: Global Plan
+          Offset:
+            X: 0
+            Y: 0
+            Z: 0
+          Pose Color: 255; 85; 255
+          Pose Style: None
+          Radius: 0.029999999329447746
+          Shaft Diameter: 0.10000000149011612
+          Shaft Length: 0.10000000149011612
+          Topic: /drone_1/move_base/DWAPlannerROS/global_plan
+          Unreliable: false
+          Value: true
+        - Alpha: 1
+          Buffer Length: 1
+          Class: rviz/Path
+          Color: 0; 85; 255
+          Enabled: true
+          Head Diameter: 0.30000001192092896
+          Head Length: 0.20000000298023224
+          Length: 0.30000001192092896
+          Line Style: Lines
+          Line Width: 0.029999999329447746
+          Name: Local Plan
+          Offset:
+            X: 0
+            Y: 0
+            Z: 0
+          Pose Color: 255; 85; 255
+          Pose Style: None
+          Radius: 0.029999999329447746
+          Shaft Diameter: 0.10000000149011612
+          Shaft Length: 0.10000000149011612
+          Topic: /drone_1/move_base/DWAPlannerROS/local_plan
+          Unreliable: false
+          Value: true
+        - Alpha: 1
+          Buffer Length: 1
+          Class: rviz/Path
+          Color: 25; 255; 0
+          Enabled: true
+          Head Diameter: 0.30000001192092896
+          Head Length: 0.20000000298023224
+          Length: 0.30000001192092896
+          Line Style: Lines
+          Line Width: 0.029999999329447746
+          Name: Plan
+          Offset:
+            X: 0
+            Y: 0
+            Z: 0
+          Pose Color: 255; 85; 255
+          Pose Style: None
+          Radius: 0.029999999329447746
+          Shaft Diameter: 0.10000000149011612
+          Shaft Length: 0.10000000149011612
+          Topic: /drone_1/move_base/NavfnROS/plan
+          Unreliable: false
+          Value: true
+        - Alpha: 1
+          Axes Length: 1
+          Axes Radius: 0.10000000149011612
+          Class: rviz/Pose
+          Color: 0; 255; 0
+          Enabled: true
+          Head Length: 0.30000001192092896
+          Head Radius: 0.10000000149011612
+          Name: Current Goal
+          Shaft Length: 1
+          Shaft Radius: 0.05000000074505806
+          Shape: Arrow
+          Topic: /drone_1/move_base/current_goal
+          Unreliable: false
+          Value: true
+        - Alpha: 1
+          Class: rviz/Polygon
+          Color: 25; 255; 0
+          Enabled: true
+          Name: Footprint
+          Topic: /drone_1/move_base/local_costmap/footprint
+          Unreliable: false
+          Value: true
+        - Alpha: 0.4000000059604645
+          Class: rviz/Map
+          Color Scheme: map
+          Draw Behind: true
+          Enabled: true
+          Name: Global CostMap
+          Topic: /drone_1/move_base/global_costmap/costmap
+          Unreliable: false
+          Use Timestamp: false
+          Value: true
+        - Alpha: 0.699999988079071
+          Class: rviz/Map
+          Color Scheme: map
+          Draw Behind: true
+          Enabled: true
+          Name: Local CostMap
+          Topic: /drone_1/move_base/local_costmap/costmap
+          Unreliable: false
+          Use Timestamp: false
+          Value: true
+      Enabled: true
+      Name: Navigation
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: world_enu
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /drone_1/move_base/rviz_goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 27.257526397705078
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: false
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.6903984546661377
+      Target Frame: drone_1/base_link
+      Value: Orbit (rviz)
+      Yaw: 3.158566474914551
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1017
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000400000000000002550000035ffc020000000dfb0000001200530065006c0065006300740069006f006e010000003b000000960000005c00fffffffb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afc000000d7000002c3000000c700fffffffa000000010100000002fb0000002000630061006d005f00660072006f006e0074005f00630065006e0074006500720000000000ffffffff0000000000000000fb000000100044006900730070006c0061007900730100000000000001a60000015600fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000c00430061006d006500720061010000038f000000160000000000000000fb0000003600630061006d005f00660072006f006e0074005f006c006500660074005f00640065007000740068005f0070006c0061006e006100720200000af40000014e0000031c00000231fb0000001c00630061006d005f00660072006f006e0074005f006c0065006600740200000ac00000010f000002d700000196fb0000001e00630061006d005f00660072006f006e0074005f007200690067006800740200000b400000017000000286000001a7fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb0000000a0049006d0061006700650100000344000000ce000000000000000000000001000001a10000035ffc0200000004fb0000001e0054006f006f006c002000500072006f0070006500720074006900650073010000003b000001bb0000005c00fffffffb0000000a0056006900650077007301000001fc0000019e000000a000fffffffb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007800000003efc0100000002fb0000000800540069006d00650100000000000007800000024400fffffffb0000000800540069006d006501000000000000045000000000000000000000037e0000035f00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1920
+  X: 1920
+  Y: 23

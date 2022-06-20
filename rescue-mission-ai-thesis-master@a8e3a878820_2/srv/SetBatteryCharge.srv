@@ -1,0 +1,4 @@
+int32 data # value between 0 and 100 to set the charge level of the robots battery
+---
+bool success # indicate successful run of triggered service
+string message # informational, e.g. for error messages

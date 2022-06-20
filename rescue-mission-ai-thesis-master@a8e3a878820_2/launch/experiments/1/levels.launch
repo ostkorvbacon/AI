@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="host"/>
+    <arg name="max_velocity" default="5"/>
+    <arg name="heading_update_rate" default="10"/> <!-- Update rate in seconds -->
+    <arg name="motor" default="true"/>
+    <arg name="max_avoid_threshold" default="3"/>
+    <arg name="min_avoid_threshold" default="2"/>
+    <arg name="people_list"/>
+    <arg name="offset_x"/>
+    <arg name="offset_y"/>
+    <arg name="trace_rgba"/>
+
+    <rosparam file="$(find multi_drone_sar)/data/$(arg people_list).yaml" command="load"/>
+    
+    
+    <param name="offset_x" value="$(arg offset_x)"/>
+    <param name="offset_y" value="$(arg offset_y)"/>
+    <param name="trace_rgba" type="yaml" value="$(arg trace_rgba)"/>
+
+    <node name="fake_drone" pkg="multi_drone_sar" type="fake_drone.py" output="screen" respawn="false" respawn_delay="0">
+        <param name="host" value="$(arg host)"/>
+        <param name="max_charge_distance" value="6"/>
+    </node>
+
+    <node name="feelforce" pkg="multi_drone_sar" type="feelforce.py" output="screen"/>
+    <node name="runaway" pkg="multi_drone_sar" type="runaway.py" output="screen">
+        <param name="threshold" value="$(arg min_avoid_threshold)"/>
+    </node>
+    <group if="$(arg motor)">
+        <node name="motor" pkg="multi_drone_sar" type="motor.py" output="screen">
+            <param name="host" value="$(arg host)"/>
+        </node>
+    </group>
+
+</launch>

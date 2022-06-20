@@ -1,0 +1,25 @@
+people:
+- first_aid: false
+  found: false
+  id: 0
+  point: [50.3, 8]
+- first_aid: false
+  found: false
+  id: 1
+  point: [62.3, 4.9]
+- first_aid: false
+  found: false
+  id: 2
+  point: [62.3, 37.8]
+- first_aid: false
+  found: false
+  id: 3
+  point: [89.9, 4.8]
+- first_aid: false
+  found: false
+  id: 4
+  point: [81.7, -31.8]
+- first_aid: false
+  found: false
+  id: 5
+  point: [57.4, -5.0]

@@ -1,0 +1,301 @@
+people:
+- first_aid: false
+  found: false
+  id: 0
+  point:
+  - -98.91037795475647
+  - 230.9512212927992
+- first_aid: true
+  found: false
+  id: 1
+  point:
+  - 82.04392403134995
+  - 40.929008346781075
+- first_aid: false
+  found: false
+  id: 2
+  point:
+  - -164.0742458611273
+  - 138.31864185474694
+- first_aid: true
+  found: false
+  id: 3
+  point:
+  - 94.26996638830121
+  - 395.7181479671871
+- first_aid: false
+  found: false
+  id: 4
+  point:
+  - 117.56189828065584
+  - 64.59501935145835
+- first_aid: false
+  found: false
+  id: 5
+  point:
+  - -168.16350070098076
+  - 41.41393498980844
+- first_aid: false
+  found: false
+  id: 6
+  point:
+  - 26.785185712544603
+  - 198.30469785968512
+- first_aid: false
+  found: false
+  id: 7
+  point:
+  - 82.20957018000422
+  - 265.47934074211025
+- first_aid: false
+  found: false
+  id: 8
+  point:
+  - 157.3959216773373
+  - 332.9203201515926
+- first_aid: false
+  found: false
+  id: 9
+  point:
+  - -40.18042609399845
+  - 416.63683614343114
+- first_aid: false
+  found: false
+  id: 10
+  point:
+  - -124.41747615865134
+  - 124.98178233261234
+- first_aid: false
+  found: false
+  id: 11
+  point:
+  - -106.37527525800047
+  - 109.33293721656244
+- first_aid: false
+  found: false
+  id: 12
+  point:
+  - -115.65294640243845
+  - 122.68511180808973
+- first_aid: false
+  found: false
+  id: 13
+  point:
+  - -139.99229306797332
+  - 122.31733894618384
+- first_aid: false
+  found: false
+  id: 14
+  point:
+  - -59.82922616136881
+  - 127.76694479053091
+- first_aid: true
+  found: false
+  id: 15
+  point:
+  - -61.93064958757492
+  - 171.32724571117842
+- first_aid: false
+  found: false
+  id: 16
+  point:
+  - -55.325639615531884
+  - 102.02918331371698
+- first_aid: false
+  found: false
+  id: 17
+  point:
+  - -91.63659898567627
+  - 169.61249761438324
+- first_aid: false
+  found: false
+  id: 18
+  point:
+  - -55.448368396777994
+  - 116.20517195470688
+- first_aid: false
+  found: false
+  id: 19
+  point:
+  - -75.44925211742144
+  - 119.91471524727555
+- first_aid: false
+  found: false
+  id: 20
+  point:
+  - -74.25241336332742
+  - 170.50475849651133
+- first_aid: false
+  found: false
+  id: 21
+  point:
+  - -136.47296835931252
+  - 155.94579888674718
+- first_aid: false
+  found: false
+  id: 22
+  point:
+  - -58.420454516141604
+  - 139.4976030542412
+- first_aid: false
+  found: false
+  id: 23
+  point:
+  - -120.07964387115794
+  - 141.9145401128158
+- first_aid: true
+  found: false
+  id: 24
+  point:
+  - -55.49808718820262
+  - 101.82057443188421
+- first_aid: false
+  found: false
+  id: 25
+  point:
+  - -69.01369404902326
+  - 160.43370836396792
+- first_aid: false
+  found: false
+  id: 26
+  point:
+  - -79.2031546863393
+  - 94.08629168841145
+- first_aid: false
+  found: false
+  id: 27
+  point:
+  - -119.79175226603765
+  - 90.56261212424937
+- first_aid: false
+  found: false
+  id: 28
+  point:
+  - -59.2626809188167
+  - 142.89343425124386
+- first_aid: false
+  found: false
+  id: 29
+  point:
+  - -129.7987502175692
+  - 158.99714542376233
+- first_aid: false
+  found: false
+  id: 30
+  point:
+  - 109.87345746122037
+  - 309.1504829877735
+- first_aid: false
+  found: false
+  id: 31
+  point:
+  - 130.11471384756481
+  - 319.22587085999027
+- first_aid: false
+  found: false
+  id: 32
+  point:
+  - 118.55647509667097
+  - 293.2051250823926
+- first_aid: false
+  found: false
+  id: 33
+  point:
+  - 143.87736490032728
+  - 311.86255219123785
+- first_aid: false
+  found: false
+  id: 34
+  point:
+  - 82.03697759532093
+  - 297.102663112131
+- first_aid: false
+  found: false
+  id: 35
+  point:
+  - 118.37256229763943
+  - 372.6998418647489
+- first_aid: false
+  found: false
+  id: 36
+  point:
+  - 84.86877481319794
+  - 372.52540560781176
+- first_aid: false
+  found: false
+  id: 37
+  point:
+  - 66.98939688165808
+  - 288.55889382760785
+- first_aid: false
+  found: false
+  id: 38
+  point:
+  - 66.1410568130305
+  - 313.86699119878017
+- first_aid: false
+  found: false
+  id: 39
+  point:
+  - 104.05793390384565
+  - 289.13832727863337
+- first_aid: false
+  found: false
+  id: 40
+  point:
+  - 113.50145262202528
+  - 351.1051653828109
+- first_aid: true
+  found: false
+  id: 41
+  point:
+  - 100.84336984538788
+  - 301.25879235926726
+- first_aid: false
+  found: false
+  id: 42
+  point:
+  - 142.01919625660383
+  - 333.71397719120785
+- first_aid: false
+  found: false
+  id: 43
+  point:
+  - 65.57902170684662
+  - 318.18943959884655
+- first_aid: false
+  found: false
+  id: 44
+  point:
+  - 111.64880209463627
+  - 330.158187516492
+- first_aid: false
+  found: false
+  id: 45
+  point:
+  - 126.72873682683462
+  - 361.57750520870354
+- first_aid: false
+  found: false
+  id: 46
+  point:
+  - 106.6613370588401
+  - 325.96923314559297
+- first_aid: false
+  found: false
+  id: 47
+  point:
+  - 77.55513637509983
+  - 344.9340528224135
+- first_aid: false
+  found: false
+  id: 48
+  point:
+  - 113.98575255814757
+  - 309.1604489311372
+- first_aid: false
+  found: false
+  id: 49
+  point:
+  - 64.49617226580307
+  - 330.963171177661

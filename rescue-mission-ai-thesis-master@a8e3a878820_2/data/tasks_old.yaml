@@ -1,0 +1,17 @@
+task:
+  - {priority: 5, uniqueid: '1', droneid: '', x: -102, y: 164.8}
+  - {priority: 5, uniqueid: '2', droneid: '', x: -102, y: 64.8}
+  - {priority: 5, uniqueid: '3', droneid: '', x: -102, y: -35.2}
+  - {priority: 5, uniqueid: '4', droneid: '', x: -102, y: -135.2}
+  - {priority: 5, uniqueid: '5', droneid: '', x: -2, y: 164.8}
+  - {priority: 5, uniqueid: '6', droneid: '', x: -2, y: 64.8}
+  - {priority: 5, uniqueid: '7', droneid: '', x: -2, y: -35.2}
+  - {priority: 5, uniqueid: '8', droneid: '', x: -2, y: -135.2}
+  - {priority: 5, uniqueid: '9', droneid: '', x: 98, y: 164.8}
+  - {priority: 5, uniqueid: '10', droneid: '', x: 98, y: 64.8}
+  - {priority: 5, uniqueid: '11', droneid: '', x: 98, y: -35.2}
+  - {priority: 5, uniqueid: '12', droneid: '', x: 98, y: -135.2}
+  - {priority: 5, uniqueid: '13', droneid: '', x: 198, y: 164.8}
+  - {priority: 5, uniqueid: '14', droneid: '', x: 198, y: 64.8}
+  - {priority: 5, uniqueid: '15', droneid: '', x: 198, y: -35.2}
+  - {priority: 5, uniqueid: '16', droneid: '', x: 198, y: -135.2}
